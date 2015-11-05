@@ -1,7 +1,7 @@
 ##### An example of simple web project
 
 	created project using maven archetype 
-_mvn archetype:generate -DgroupId=com.web.application -DartifactId=webapplication -DarchetypeArtifactId=spring-mvc-archetype -DinteractiveMode=false_
+_mvn archetype:generate -DgroupId=com.mahajan.learning -DartifactId=webapplication -DarchetypeArtifactId=spring-mvc-archetype -DinteractiveMode=false_
 
 Added Login/Singnup pages with a controller
 

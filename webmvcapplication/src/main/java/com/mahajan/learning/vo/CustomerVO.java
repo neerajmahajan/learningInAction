@@ -1,4 +1,4 @@
-package com.web.application.vo;
+package com.mahajan.learning.vo;
 
 import javax.validation.constraints.Size;
 
