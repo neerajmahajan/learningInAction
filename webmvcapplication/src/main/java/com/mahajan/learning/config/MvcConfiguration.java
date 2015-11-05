@@ -1,4 +1,4 @@
-package com.web.application.config;
+package com.mahajan.learning.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

@@ -1,4 +1,4 @@
-package com.web.application.controller;
+package com.mahajan.learning.controller;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.web.application.vo.CustomerVO;
+import com.mahajan.learning.vo.CustomerVO;
 
 @Controller
 public class CustomerController {
@@ -21,12 +21,12 @@ public class CustomerController {
 	private static final Logger logger = LoggerFactory
 			.getLogger(CustomerController.class);
 
-	@RequestMapping(value = "/")
+	@RequestMapping(value = {"/","/login"})
 	public ModelAndView displayLogin(HttpServletResponse response)
 			throws IOException {
 		return new ModelAndView("login");
 	}
-
+	
 	@RequestMapping(value = "displaySignup")
 	public ModelAndView displaySignup(HttpServletRequest request,
 			HttpServletResponse response) throws IOException {
