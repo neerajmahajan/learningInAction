@@ -37,7 +37,6 @@ public class CustomerController {
 	public ModelAndView doSignup(HttpServletRequest request,
 			HttpServletResponse response, CustomerVO customer)
 			throws IOException {
-
 		// TODO
 		// save in data base;
 		return new ModelAndView("login", "customer", customer);
